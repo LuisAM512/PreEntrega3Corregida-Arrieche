@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#FondoEntrada {
+  background-image: url("/assets/images/Imagen de Bodeguero.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#MainEntrada {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 50vh;
+  margin-top: 80px;
+}
+#MainEntrada .LogoEntrada {
+  place-items: center;
+  width: 50%;
+  height: 50%;
+}
+#MainEntrada .BotonInicio {
+  background-color: red;
+  color: white;
+  margin-top: 100px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#MainEntrada .Registro1 {
+  color: white;
+  margin-top: 40px;
+}
+#MainEntrada .Registro2 {
+  color: red;
+}
+
+#FondoCategoria {
+  background-color: rgba(192, 188, 188, 0.3529411765);
+}
+
+#Logo2 {
+  width: 80px;
+}
+
+#Carrito2 {
+  width: 50px;
+}
+
+.container2 {
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 992px) {
+  .container2 {
+    background-color: #f8f9fa;
+  }
+}
+.Despensa2 {
+  width: 80%;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 10px rgb(172, 170, 170));
+}
+
+.LogoBN2 {
+  width: 40px;
+}
+
+.LetraDespensa {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.LetraDespensa1 {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.container6 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 992px) {
+  .container5 .custom-col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .LetraDespensa {
+    font-size: 35px;
+  }
+  .LetraDespensa1 {
+    margin-top: 30px;
+    font-size: 45px;
+  }
+  .container6 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+}
+#Logo2 {
+  margin-top: 10px;
+}
+
+#Logo2 {
+  color: aqua;
+}
+
+#MainSesion {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 50vh;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#SeccionCuadro {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  align-items: center;
+  padding-top: 130px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+#SeccionCuadro .ContenedorLogin {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+#SeccionCuadro .form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#SeccionCuadro .LetraSesion {
+  margin: 10px;
+  font-size: 15px;
+}
+#SeccionCuadro .LetraSesion2 {
+  color: #ff0004;
+}
+#SeccionCuadro .BotonSesion {
+  background-color: #ff0004;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+#SeccionCuadro h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.LogoSesion {
+  place-items: center;
+  width: 50%;
+  height: 50%;
+  padding-bottom: 50px;
+}
+
+#Fondo3 {
+  background-image: linear-gradient(grey, red);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#Form3a {
+  background-color: rgba(255, 255, 255, 0.626);
+  width: 50vh;
+  margin: auto;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#Form3a input[type=text],
+#Form3a input[type=email],
+#Form3a input[type=tel],
+#Form3a input[type=date] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#Form3a label {
+  display: block;
+  margin-top: 10px;
+}
+#Form3a input[type=submit],
+#Form3a input[type=reset] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+#Form3a input[type=button] {
+  background-color: #085ab1;
+  color: white;
+  padding: 10px 17px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+img {
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+/*# sourceMappingURL=style.css.map */

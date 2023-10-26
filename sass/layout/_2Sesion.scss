@@ -1,0 +1,65 @@
+
+
+#MainSesion{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 50vh;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+    #SeccionCuadro{
+            display: flex;
+            justify-content: center;
+            height: 30vh;
+            align-items: center;
+            padding-top: 130px;
+            padding-bottom: 20px;
+            border-radius: 30px;
+
+        .ContenedorLogin {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 20px;
+        }
+
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .LetraSesion {
+            margin: 10px;
+            font-size: 15px;
+        }
+        
+        .LetraSesion2 {
+            color: #ff0004;
+        }
+        
+        .BotonSesion {
+            background-color: #ff0004;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .LogoSesion{
+        place-items: center;
+        width: 50%;
+        height: 50%;
+        padding-bottom: 50px;
+    }

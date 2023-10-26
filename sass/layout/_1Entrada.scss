@@ -1,0 +1,134 @@
+$Fondo: url("/assets/images/Imagen\ de\ Bodeguero.png");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#FondoEntrada {
+    background-image:$Fondo;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+ #MainEntrada {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 50vh;
+    margin-top: 80px;
+
+    .LogoEntrada{
+        place-items: center;
+        width: 50%;
+        height: 50%;
+    
+    }
+    .BotonInicio{
+        background-color: red;
+        color: white;
+        margin-top: 100px;
+        width: 200px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
+    .Registro1{
+        color: white ;
+        margin-top: 40px;
+    }
+    
+    .Registro2{
+        color: red ;
+    }
+
+ }
+
+ #FondoCategoria{
+    background-color: #c0bcbc5a;
+  }
+  
+  #Logo2{
+    width: 80px;
+  }
+  
+  #Carrito2{
+    width: 50px;
+  }
+  
+  .container2{
+    background-color:#f8f9fa;
+  }
+  
+  @media (min-width: 992px){
+    .container2{
+        background-color: #f8f9fa;
+    }
+  }
+  
+  .Despensa2{
+    width: 80%;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px rgb(172, 170, 170));
+  }
+  
+  .LogoBN2{
+    width: 40px;
+  }
+  
+  .LetraDespensa{
+    margin-top: 50px;
+    font-size: 25px;
+    
+  }
+  
+  .LetraDespensa1{
+    margin-top: 30px;
+    font-size: 35px;
+    
+  }
+  
+  .container6{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  @media (min-width: 992px){
+    .container5{
+        .custom-col-md-3 {
+            flex: 0 0 25%;
+            max-width: 25%;
+    }
+  }
+    .LetraDespensa {
+        font-size: 35px;
+    }
+  
+    .LetraDespensa1 {
+        margin-top: 30px;
+        font-size: 45px;
+    }
+  
+    .container6{
+        margin-top: 70px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+  
+  }
+  #Logo2{
+    margin-top: 10px;
+  }
+
+
+
+  #Logo2{
+    color: aqua;
+  }
